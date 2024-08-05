@@ -11,7 +11,7 @@ const chat = require("./chatGPT")
 const menuPath = path.join(__dirname, "mensajes", "menu.txt")
 const menu = fs.readFileSync(menuPath, "utf8")
 
-const introPath = path.join(__dirname, "mensajes", "introduccion.txt")
+const introPath = path.join(__dirname, "mensajes", "introduccion.md")
 const intro = fs.readFileSync(introPath, "utf8")
 
 const pathConsultas = path.join(__dirname, "mensajes", "promptConsultas.md")
